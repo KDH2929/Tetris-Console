@@ -1,4 +1,4 @@
-# Tetris-Console
+# Tetris
 
 
 ## 구현 목표
