@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Project7\Tetris\Block.h" />
-    <ClInclude Include="..\..\Project7\Tetris\BlockType.h" />
-    <ClInclude Include="..\..\Project7\Tetris\KeyManager.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="BlockType.h" />
+    <ClInclude Include="KeyManager.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Project7\Tetris\KeyManager.cpp" />
-    <ClCompile Include="..\..\Project7\Tetris\main.cpp" />
+    <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
