@@ -572,6 +572,11 @@ void HandleKeyInput() {
 
 	if (_kbhit()) {        // 키가 눌렸는지 확인
 		key = _getch();    // 눌린 키를 반환
+
+		// 방향키의 경우 추가 입력 필요
+		if (key == -32 || key == 224) {
+			key = _getch();    // 실제 방향키 값을 재입력
+		}
 	}
 
 	// 입력이 없으면 0 반환
